@@ -1,25 +1,24 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <script>
-    // Required:
-    window.LIVECHAT_CHANNEL_UUID = 'c474c95b-801d-4c44-a51d-c5cc9d314cbc';
-    // Optional, with defaults values:
-    window.TOOKE_API_PUBLIC_URL = 'https://app.tooke.chat';
-  </script>
-  <script defer src="https://tooke-widgets.s3.us-east-1.amazonaws.com/tooke-live-chat.min.js" ></script>
+    <script>
+      window.LIVECHAT_CHANNEL_UUID = 'f2456ca1-7e7a-4beb-9f16-313bdd40513a';
+      window.TOOKE_API_PUBLIC_URL = 'https://app.tooke.chat';
+    </script>
 
-  <style>
-    #tooke-live-chat-container .ev2-button--positive {
-      background: #7f0101 !important;
-    }
-    #tooke-live-chat-container .ev2-input__input-wrapper:focus-within, #tooke-live-chat-container .ev2-textarea__textarea-wrapper:focus-within {
-      box-shadow: 0 0 0 2px #7f0101 
-    }
-    #tooke-live-chat-container .message--sent-by-contact {
-      background-color: #ffebeb !important;
-    }
-  </style>
+    <style>
+      :root {
+        --livechat-primary: #00bbd3;
+        --livechat-primary-light: #e6f8fb;
+        --livechat-primary-dark: #0096a9;
+        --livechat-secondary: #696667;
+        --livechat-secondary-light: #e9e9e9;
+        --livechat-link: #0096a9;
+        --livechat-negative: #fe604f;
+        --livechat-avatar-background: #00bbd3;
+        --livechat-avatar-background-hover: #0096a9;
+      }
+    </style>
 </head>
 <body>
 </body>
